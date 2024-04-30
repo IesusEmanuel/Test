@@ -6,8 +6,13 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
+    background-color: #202020;
+    color: white;
+    border-color: white;
 }
-
+::placeholder{
+  color: white;
+}
 /* Estilo para o container do formulário */
 .container {
     max-width: 500px;
